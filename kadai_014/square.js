@@ -1,5 +1,7 @@
-const totalNum = (num) => {
-    console.log(Math.pow(num,2));
+function totalNum (num) {
+    return Math.pow(num,2);
 }
 
-totalNum(10);
+let result = totalNum(10);
+
+console.log(result)
